@@ -33,7 +33,7 @@ const Header = () => {
         }
     ]
     return (
-        <header className='container flex items-center justify-between pt-[40px]'>
+        <header className='container flex items-center justify-between pt-[40px] pb-[47px] absolute' data-aos="fade-down">
             <Link href={'/'}>
                 <Image src={Logo} alt='Logo' width={164} height={43} style={{ width: "164px", height: "43px" }} priority />
             </Link>
