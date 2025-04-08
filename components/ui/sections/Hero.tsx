@@ -13,7 +13,7 @@ const Hero = () => {
           <p className='text-[16px] leading-[160%] font-semibold text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien lectus sit tristique rhoncus, nisi, malesuada. Tellus consequat </p>
           <div className="flex items-center gap-[44px] mt-[43px]">
             <Button title='Get Started'/>
-            <button className='w-[172px] py-[15px] px-[30px] inline-block text-[20px] leading-[160%] font-medium text-white border-[1px] border-[#FFFFFF4D] bg-transparent rounded-[4px]'>Free Trail</button>
+            <button className='w-[172px] py-[15px] px-[30px] inline-block text-[20px] leading-[160%] font-medium text-white border-[1px] border-[#FFFFFF4D] bg-transparent rounded-[4px] cursor-pointer'>Free Trail</button>
           </div>
         </div>
         <Image data-aos="fade-left" src={HeroImg} alt='Image' width={811} height={589} style={{ width: "811", height: "589" }} priority />
